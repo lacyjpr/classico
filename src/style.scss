@@ -1,14 +1,21 @@
-.container {
-    margin: auto;
-    text-align: center;
-    max-width: 600px;
+// Google font
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
 
-    &__image {
-        width: 100px;
-        height: auto;
-    }
+body {
+  font-family: 'Open Sans', Helvetica, Arial, sans-serif;
+}
+
+.container {
+  margin: auto;
+  text-align: center;
+  max-width: 600px;
+
+  &__image {
+    width: 100px;
+    height: auto;
+  }
 }
 
 .left {
-    text-align: left;
+  text-align: left;
 }
