@@ -6,7 +6,7 @@ import Routes from './Routes';
 import reactLogo from './assets/React-icon.png';
 
 const App = () => (
-  <BrowserRouter basename={process.env.PUBLIC_URL}>
+  <BrowserRouter>
     <main className="container">
       <div>
         <h1>hello world!</h1>
