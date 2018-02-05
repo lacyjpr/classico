@@ -5,26 +5,28 @@ class Header extends Component {
   render() {
     return (
       <nav className="nav">
-        <label htmlFor="hamburger" className="nav__hamburger">
-          ☰
-        </label>
-        <input type="checkbox" id="hamburger" role="button" />
-        <div className="nav__menu">
-          <ul>
-            <li>
-              <Link to="/">Home</Link>
-            </li>
-            <li>
-              <Link to="/about">About</Link>
-            </li>
-            <li>
-              <Link to="/blog">Blog</Link>
-            </li>
-            <li>
-              <Link to="/contact">Contact</Link>
-            </li>
-          </ul>
-        </div>
+        <ul>
+          <li>
+            <label htmlFor="hamburger" className="nav__hamburger">
+              ☰
+            </label>
+            <input type="checkbox" id="hamburger" role="button" />
+            <ul className="nav__menu">
+              <li className="nav__menu--item">
+                <Link to="/">Home</Link>
+              </li>
+              <li className="nav__menu--item">
+                <Link to="/about">About</Link>
+              </li>
+              <li className="nav__menu--item">
+                <Link to="/blog">Blog</Link>
+              </li>
+              <li className="nav__menu--item">
+                <Link to="/contact">Contact</Link>
+              </li>
+            </ul>
+          </li>
+        </ul>
       </nav>
     );
   }

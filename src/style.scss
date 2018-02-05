@@ -24,6 +24,16 @@ body {
   grid-column: 1 / 13;
   grid-row: 1 / 2;
 
+  ul {
+    list-style: none;
+
+    li {
+      float: right;
+      width: 80px;
+      margin-right: 10vw;
+    }
+  }
+
   input[type='checkbox'] {
     display: none;
   }
@@ -35,14 +45,12 @@ body {
   &__hamburger {
     display: block;
     text-align: right;
-    margin-right: 10vw;
-    margin-left: 90vw;
   }
 
   &__menu {
     position: absolute;
-    text-align: center;
-    left: 70vw;
+    margin-right: 10vw;
+    padding: 0;
     width: 80px;
     overflow: hidden;
     max-height: 0;
@@ -59,7 +67,13 @@ body {
       padding: 0;
     }
 
+    &--item {
+      float: none !important;
+      margin: 0;
+    }
+
     a {
+      text-align: center;
       text-decoration: none;
       width: 40px;
     }
