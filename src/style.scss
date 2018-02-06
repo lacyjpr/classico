@@ -1,3 +1,5 @@
+$gamboge: #cc9900;
+
 // Google font
 @import url('https://fonts.googleapis.com/css?family=Open+Sans');
 
@@ -12,7 +14,6 @@ body {
   grid-template-columns: repeat(12, 1fr);
   grid-template-rows: repeat(12, minmax(50px, auto));
   margin: auto;
-  text-align: center;
 
   &__image {
     width: 100px;
@@ -23,6 +24,16 @@ body {
 .nav {
   grid-column: 1 / 13;
   grid-row: 1 / 2;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  &__title {
+    color: $gamboge;
+    font-size: 2.6em;
+    font-weight: 400;
+    margin-left: 5vw;
+  }
 
   ul {
     list-style: none;
@@ -30,7 +41,7 @@ body {
     li {
       float: right;
       width: 80px;
-      margin-right: 10vw;
+      margin-right: 5vw;
     }
   }
 
@@ -39,12 +50,15 @@ body {
   }
 
   input[type='checkbox']:checked ~ .nav__menu {
-    max-height: 125px;
+    max-height: 200px;
   }
 
   &__hamburger {
+    color: $gamboge;
     display: block;
     text-align: right;
+    font-size: 2em;
+    align-self: center;
   }
 
   &__menu {
@@ -52,13 +66,14 @@ body {
     margin-right: 10vw;
     padding: 0;
     width: 80px;
+    border-radius: 6px;
     overflow: hidden;
     max-height: 0;
     -webkit-transition: max-height 500ms ease;
     -moz-transition: max-height 500ms ease;
     -o-transition: max-height 500ms ease;
     transition: max-height 500ms ease;
-    background-color: black;
+    background-color: white;
 
     ul {
       list-style: none;
@@ -70,12 +85,26 @@ body {
     &--item {
       float: none !important;
       margin: 0;
+      text-align: center;
+      border-radius: 6px;
+    }
+
+    &--item:hover {
+      background-color: $gamboge;
+
+      a {
+        color: white;
+      }
     }
 
     a {
-      text-align: center;
       text-decoration: none;
       width: 40px;
+      color: black;
+    }
+
+    .active {
+      color: $gamboge !important;
     }
   }
 }

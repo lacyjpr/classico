@@ -1,10 +1,11 @@
 import React, { Component } from 'react';
-import { Link } from 'react-router-dom';
+import { NavLink } from 'react-router-dom';
 
 class Header extends Component {
   render() {
     return (
       <nav className="nav">
+        <div className="nav__title">Classico</div>
         <ul>
           <li>
             <label htmlFor="hamburger" className="nav__hamburger">
@@ -13,16 +14,24 @@ class Header extends Component {
             <input type="checkbox" id="hamburger" role="button" />
             <ul className="nav__menu">
               <li className="nav__menu--item">
-                <Link to="/">Home</Link>
+                <NavLink to="/" exact activeClassName="active">
+                  Home
+                </NavLink>
               </li>
               <li className="nav__menu--item">
-                <Link to="/about">About</Link>
+                <NavLink to="/about" activeClassName="active">
+                  About
+                </NavLink>
               </li>
               <li className="nav__menu--item">
-                <Link to="/blog">Blog</Link>
+                <NavLink to="/blog" activeClassName="active">
+                  Blog
+                </NavLink>
               </li>
               <li className="nav__menu--item">
-                <Link to="/contact">Contact</Link>
+                <NavLink to="/contact" activeClassName="active">
+                  Contact
+                </NavLink>
               </li>
             </ul>
           </li>
