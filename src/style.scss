@@ -116,6 +116,7 @@ body {
 @media (min-width: 768px) {
   .nav {
     justify-content: flex-start;
+
     &__hamburger {
       display: none;
     }
@@ -125,8 +126,10 @@ body {
       max-height: 50px;
       width: 50vw;
       margin-left: 20vw;
+
       &--item {
         display: inline;
+        font-size: 1.25em;
       }
     }
   }
