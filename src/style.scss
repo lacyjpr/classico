@@ -93,7 +93,7 @@ body {
       background-color: $gamboge;
 
       a {
-        color: white;
+        color: white !important;
       }
     }
 
@@ -111,4 +111,23 @@ body {
 
 .left {
   text-align: left;
+}
+
+@media (min-width: 768px) {
+  .nav {
+    justify-content: flex-start;
+    &__hamburger {
+      display: none;
+    }
+
+    &__menu {
+      position: relative;
+      max-height: 50px;
+      width: 50vw;
+      margin-left: 20vw;
+      &--item {
+        display: inline;
+      }
+    }
+  }
 }
