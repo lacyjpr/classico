@@ -70,18 +70,22 @@ body {
     border-radius: 6px;
     overflow: hidden;
     max-height: 0;
+    list-style: none;
+    margin-top: 0;
+    margin: 0;
+    padding: 0;
     -webkit-transition: max-height 500ms ease;
     -moz-transition: max-height 500ms ease;
     -o-transition: max-height 500ms ease;
     transition: max-height 500ms ease;
     background-color: white;
 
-    ul {
-      list-style: none;
-      margin-top: 0;
-      margin: 0;
-      padding: 0;
-    }
+    // ul {
+    //   list-style: none;
+    //   margin-top: 0;
+    //   margin: 0;
+    //   padding: 0;
+    // }
 
     &--item {
       float: none !important;
