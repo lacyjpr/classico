@@ -106,8 +106,10 @@ body {
   }
 }
 
-.left {
-  text-align: left;
+.home {
+  grid-column: 1 / 13;
+  grid-row: 2 / 3;
+  justify-self: center;
 }
 
 @media (min-width: 768px) {
@@ -122,7 +124,7 @@ body {
       position: relative;
       max-height: 50px;
       width: 50vw;
-      margin-left: 30vw;
+      margin-left: 26vw;
 
       &--item {
         display: inline;
