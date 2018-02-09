@@ -1,6 +1,7 @@
 import React from 'react';
 
 import homeImg from '../assets/home.jpg';
+import HomeInfoBox from './HomeInfoBox';
 
 const Home = () => (
   <div className="home">
@@ -10,6 +11,7 @@ const Home = () => (
       Lorem ipsum dolor sit amet consectetur adipiscing, elit purus volutpat
       duis eget mus arcu, pharetra nisi parturient vestibulum quisque.
     </p>
+    <HomeInfoBox />
   </div>
 );
 
