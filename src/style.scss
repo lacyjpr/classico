@@ -148,3 +148,17 @@ body {
     text-align: center;
   }
 }
+
+.about {
+  grid-column: 1 / 13;
+  grid-row: 2 / 3;
+
+  &__image {
+    width: 100%;
+    height: auto;
+  }
+
+  h2 {
+    text-align: center;
+  }
+}
