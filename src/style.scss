@@ -106,17 +106,6 @@ body {
   }
 }
 
-.home {
-  grid-column: 1 / 13;
-  grid-row: 2 / 3;
-  justify-self: center;
-
-  &__image {
-    width: 100%;
-    height: auto;
-  }
-}
-
 @media (min-width: 768px) {
   .nav {
     justify-content: flex-start;
@@ -142,5 +131,20 @@ body {
 @media (min-width: 1200px) {
   .nav__menu {
     margin-left: 40vw;
+  }
+}
+
+.home {
+  grid-column: 1 / 13;
+  grid-row: 2 / 3;
+  //justify-self: center;
+
+  &__image {
+    width: 100%;
+    height: auto;
+  }
+
+  h2 {
+    text-align: center;
   }
 }
