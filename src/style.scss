@@ -20,11 +20,6 @@ p {
   grid-template-columns: repeat(12, 1fr);
   grid-template-rows: repeat(12, minmax(50px, auto));
   margin: auto;
-
-  &__image {
-    width: 100px;
-    height: auto;
-  }
 }
 
 .nav {
@@ -160,6 +155,27 @@ p {
     font-size: 1.4rem;
     max-width: 800px;
     margin: 0 auto 80px;
+  }
+
+  &__info-box {
+    &--img {
+      width: 90%;
+      height: auto;
+      display: block;
+      margin: 0 auto;
+    }
+    &--item-1 {
+      max-width: 320px;
+    }
+    &--item-2 {
+      max-width: 320px;
+    }
+    &--item-3 {
+      max-width: 320px;
+    }
+    &--item-4 {
+      max-width: 320px;
+    }
   }
 }
 
