@@ -13,7 +13,7 @@ const HomeInfoBox = () => (
         alt="sepia landscape with sun"
         src={imageOne}
       />
-      <h4 className="home__info-box--h4">Integer tincidunt leo #1</h4>
+      <h4 className="home__info-box--h4">Lorem ipsum dolor #1</h4>
       <p className="home__info-box--p">
         Lorem ipsum dolor sit amet consectetur adipiscing elit, parturient fames
         odio litora porttitor.
@@ -28,7 +28,7 @@ const HomeInfoBox = () => (
         alt="sepia landscape with sun"
         src={imageTwo}
       />
-      <h4 className="home__info-box--h4">Integer tincidunt leo #2</h4>
+      <h4 className="home__info-box--h4">Lorem ipsum dolor #2</h4>
       <p className="home__info-box--p">
         Lorem ipsum dolor sit amet consectetur adipiscing elit, parturient fames
         odio litora porttitor.
@@ -43,7 +43,7 @@ const HomeInfoBox = () => (
         alt="sepia landscape with sun"
         src={imageThree}
       />
-      <h4 className="home__info-box--h4">Integer tincidunt leo #3</h4>
+      <h4 className="home__info-box--h4">Lorem ipsum dolor #3</h4>
       <p className="home__info-box--p">
         Lorem ipsum dolor sit amet consectetur adipiscing elit, parturient fames
         odio litora porttitor.
@@ -58,7 +58,7 @@ const HomeInfoBox = () => (
         alt="sepia landscape with sun"
         src={imageFour}
       />
-      <h4 className="home__info-box--h4">Integer tincidunt leo #4</h4>
+      <h4 className="home__info-box--h4">Lorem ipsum dolor #4</h4>
       <p className="home__info-box--p">
         Lorem ipsum dolor sit amet consectetur adipiscing elit, parturient fames
         odio litora porttitor.
