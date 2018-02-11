@@ -3,6 +3,7 @@ import React from 'react';
 import homeImg from '../assets/home.jpg';
 import HomeInfoBox from './HomeInfoBox';
 import HomeIntroBox from './HomeIntroBox';
+import HomeRelated from './HomeRelated';
 
 const Home = () => (
   <div className="home">
@@ -14,6 +15,7 @@ const Home = () => (
     </p>
     <HomeInfoBox />
     <HomeIntroBox />
+    <HomeRelated />
   </div>
 );
 
