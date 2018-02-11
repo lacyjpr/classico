@@ -4,6 +4,7 @@ import homeImg from '../assets/home.jpg';
 import HomeInfoBox from './HomeInfoBox';
 import HomeIntroBox from './HomeIntroBox';
 import HomeRelated from './HomeRelated';
+import HomeCategories from './HomeCategories';
 
 const Home = () => (
   <div className="home">
@@ -16,6 +17,7 @@ const Home = () => (
     <HomeInfoBox />
     <HomeIntroBox />
     <HomeRelated />
+    <HomeCategories />
   </div>
 );
 
