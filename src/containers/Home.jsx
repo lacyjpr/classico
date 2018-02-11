@@ -2,6 +2,7 @@ import React from 'react';
 
 import homeImg from '../assets/home.jpg';
 import HomeInfoBox from './HomeInfoBox';
+import HomeIntroBox from './HomeIntroBox';
 
 const Home = () => (
   <div className="home">
@@ -12,6 +13,7 @@ const Home = () => (
       duis eget mus arcu, pharetra nisi parturient vestibulum quisque.
     </p>
     <HomeInfoBox />
+    <HomeIntroBox />
   </div>
 );
 

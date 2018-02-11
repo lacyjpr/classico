@@ -9,7 +9,7 @@ const HomeInfoBox = () => (
   <div className="home__info-box">
     <div className="home__info-box--item-1">
       <img
-        className="home__info-box--img"
+        className="home__item-image"
         alt="sepia landscape with sun"
         src={imageOne}
       />
@@ -24,7 +24,7 @@ const HomeInfoBox = () => (
     </div>
     <div className="home__info-box--item-2">
       <img
-        className="home__info-box--img"
+        className="home__item-image"
         alt="sepia landscape with sun"
         src={imageTwo}
       />
@@ -39,7 +39,7 @@ const HomeInfoBox = () => (
     </div>
     <div className="home__info-box--item-3">
       <img
-        className="home__info-box--img"
+        className="home__item-image"
         alt="sepia landscape with sun"
         src={imageThree}
       />
@@ -54,7 +54,7 @@ const HomeInfoBox = () => (
     </div>
     <div className="home__info-box--item-4">
       <img
-        className="home__info-box--img"
+        className="home__item-image"
         alt="sepia landscape with sun"
         src={imageFour}
       />
