@@ -206,6 +206,8 @@ p {
 @media (min-width: 576px) {
   .home {
     &__info-box {
+      max-width: 80%;
+      margin: 0 auto;
       display: grid;
       grid-template-columns: repeat(2, 1fr);
       grid-gap: 10px;
