@@ -8,7 +8,7 @@ const HomeUseful = () => (
     </div>
 
     <div>
-      <a href="#">Vehicula senectus vulputate</a>
+      <a href="#">Vehicula senectus</a>
     </div>
 
     <div>

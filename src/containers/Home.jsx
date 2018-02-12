@@ -16,10 +16,14 @@ const Home = () => (
       duis eget mus arcu, pharetra nisi parturient vestibulum quisque.
     </p>
     <HomeInfoBox />
-    <HomeIntroBox />
-    <HomeRelated />
-    <HomeCategories />
-    <HomeUseful />
+    <div className="home__bottom-content">
+      <HomeIntroBox />
+      <HomeRelated />
+      <div className="home__links">
+        <HomeCategories />
+        <HomeUseful />
+      </div>
+    </div>
   </div>
 );
 

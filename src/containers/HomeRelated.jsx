@@ -9,7 +9,10 @@ const HomeRelated = () => (
     <h3 className="home__related--h3">Related Posts</h3>
 
     <div className="home__related--item">
-      <img className="home__related--image" alt="old wrenches" src={itemOne} />
+      <div className="home__related--image">
+        <img alt="old wrenches" src={itemOne} />
+      </div>
+
       <div className="home__related--copy">
         <a href="#">
           <h4 className="home__related--h4">Lorem ipsum dolor</h4>
@@ -23,11 +26,10 @@ const HomeRelated = () => (
     </div>
 
     <div className="home__related--item">
-      <img
-        className="home__related--image"
-        alt="volcanic mountain"
-        src={itemTwo}
-      />
+      <div className="home__related--image">
+        <img alt="volcanic mountain" src={itemTwo} />
+      </div>
+
       <div className="home__related--copy">
         <a href="#">
           <h4 className="home__related--h4">Lorem ipsum dolor</h4>
@@ -41,11 +43,10 @@ const HomeRelated = () => (
     </div>
 
     <div className="home__related--item">
-      <img
-        className="home__related--image"
-        alt="skyscrapers from below"
-        src={itemThree}
-      />
+      <div className="home__related--image">
+        <img alt="skyscrapers from below" src={itemThree} />
+      </div>
+
       <div className="home__related--copy">
         <a href="#">
           <h4 className="home__related--h4">Lorem ipsum dolor</h4>
