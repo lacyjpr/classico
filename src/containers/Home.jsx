@@ -5,6 +5,7 @@ import HomeInfoBox from './HomeInfoBox';
 import HomeIntroBox from './HomeIntroBox';
 import HomeRelated from './HomeRelated';
 import HomeCategories from './HomeCategories';
+import HomeUseful from './HomeUseful';
 
 const Home = () => (
   <div className="home">
@@ -18,6 +19,7 @@ const Home = () => (
     <HomeIntroBox />
     <HomeRelated />
     <HomeCategories />
+    <HomeUseful />
   </div>
 );
 

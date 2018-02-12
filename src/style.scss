@@ -276,6 +276,30 @@ p {
       text-decoration: none;
     }
   }
+
+  &__useful {
+    max-width: 240px;
+    margin: 0 auto;
+    text-align: center;
+
+    &--h3 {
+      font-size: 1.65rem;
+      line-height: 1.4;
+      font-weight: 500;
+      color: $gamboge;
+      margin-top: 50px;
+      margin-bottom: 1rem;
+    }
+
+    a {
+      line-height: 2.4;
+      color: $light-blue;
+    }
+
+    a:hover {
+      text-decoration: none;
+    }
+  }
 }
 
 @media (min-width: 576px) {
