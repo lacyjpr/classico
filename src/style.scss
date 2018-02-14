@@ -488,6 +488,12 @@ p {
       line-height: 2.4;
       color: $yellow;
     }
+
+    &--images {
+      max-width: 210px;
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+    }
   }
 }
 
