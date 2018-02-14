@@ -20,10 +20,6 @@ const Footer = () => (
           Curae mollis nullam dapibus curabitur hendrerit arcu duis, platea
           vitae euismod diam cursus.
         </p>
-        <p>
-          Cras aptent habitasse viverra habitant torquent cum neque bibendum
-          varius nisl nisi vitae.
-        </p>
       </div>
     </div>
 
