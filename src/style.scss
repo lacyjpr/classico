@@ -490,6 +490,7 @@ p {
     }
 
     &--images {
+      margin: 0 auto;
       max-width: 210px;
       display: grid;
       grid-template-columns: repeat(2, 1fr);
