@@ -28,6 +28,24 @@ const HomeIntroBox = () => (
       porttitor nullam aenean ac fringilla neque pharetra iaculis molestie
       tincidunt, cum a velit auctor parturient blandit vitae id.
     </p>
+    <p>
+      Pellentesque cum arcu cursus vulputate interdum class luctus quis nam
+      etiam, hendrerit ante maecenas porttitor rutrum donec habitant malesuada
+      placerat, nisi litora orci suspendisse posuere eu curabitur dignissim
+      vestibulum.
+    </p>
+    <p>
+      Cursus varius vitae ut tortor porttitor suscipit proin lacinia laoreet,
+      faucibus condimentum nascetur vehicula ullamcorper sociosqu pretium
+      interdum elementum blandit, consequat commodo justo egestas mauris
+      tristique gravida pellentesque.
+    </p>
+    <p>
+      Montes netus mollis placerat ornare sociis ultricies duis primis lectus,
+      porttitor nullam aenean ac fringilla neque pharetra iaculis molestie
+      tincidunt, cum a velit auctor parturient blandit vitae id.
+    </p>
+
     <a href="#" className="btn-like">
       Read More
     </a>
