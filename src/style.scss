@@ -506,6 +506,12 @@ p {
   }
 }
 
+@media (min-width: 992px) {
+  .footer {
+    grid-template-columns: repeat(4, 1fr);
+  }
+}
+
 .about {
   grid-column: 1 / 13;
   grid-row: 2 / 3;
