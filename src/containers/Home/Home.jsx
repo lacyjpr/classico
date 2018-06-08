@@ -1,11 +1,11 @@
 import React from 'react';
 
 import homeImg from '../../assets/home.jpg';
-import HomeInfoBox from './HomeInfoBox';
-import HomeIntroBox from './HomeIntroBox';
-import HomeRelated from './HomeRelated';
-import HomeCategories from './HomeCategories';
-import HomeUseful from './HomeUseful';
+import InfoBox from './InfoBox';
+import IntroBox from './IntroBox';
+import Related from './Related';
+import Categories from './Categories';
+import Useful from './Useful';
 
 import './home.scss';
 
@@ -17,13 +17,13 @@ const Home = () => (
       Lorem ipsum dolor sit amet consectetur adipiscing, elit purus volutpat
       duis eget mus arcu, pharetra nisi parturient vestibulum quisque.
     </p>
-    <HomeInfoBox />
+    <InfoBox />
     <div className="home__bottom-content">
-      <HomeIntroBox />
-      <HomeRelated />
+      <IntroBox />
+      <Related />
       <div className="home__links">
-        <HomeCategories />
-        <HomeUseful />
+        <Categories />
+        <Useful />
       </div>
     </div>
   </div>
