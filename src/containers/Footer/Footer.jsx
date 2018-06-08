@@ -1,11 +1,11 @@
 import React from 'react';
 
-import imgOne from '../assets/100x100-1.jpg';
-import imgTwo from '../assets/100x100-2.jpg';
-import imgThree from '../assets/100x100-3.jpg';
-import imgFour from '../assets/100x100-4.jpg';
-import imgFive from '../assets/100x100-5.jpg';
-import imgSix from '../assets/100x100-6.jpg';
+import imgOne from '../../assets/100x100-1.jpg';
+import imgTwo from '../../assets/100x100-2.jpg';
+import imgThree from '../../assets/100x100-3.jpg';
+import imgFour from '../../assets/100x100-4.jpg';
+import imgFive from '../../assets/100x100-5.jpg';
+import imgSix from '../../assets/100x100-6.jpg';
 
 const Footer = () => (
   <div className="footer">
