@@ -7,6 +7,8 @@ import HomeRelated from './HomeRelated';
 import HomeCategories from './HomeCategories';
 import HomeUseful from './HomeUseful';
 
+import './home.scss';
+
 const Home = () => (
   <div className="home">
     <img className="home__image" alt="sepia city skyline" src={homeImg} />
