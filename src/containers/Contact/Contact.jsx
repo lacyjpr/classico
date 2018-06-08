@@ -1,6 +1,6 @@
 import React from 'react';
 
-import contactImg from '../assets/contact.jpg';
+import contactImg from '../../assets/contact.jpg';
 
 const Contact = () => (
   <div className="contact">
