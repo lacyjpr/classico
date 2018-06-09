@@ -2,6 +2,8 @@ import React from 'react';
 
 import contactImg from '../../assets/contact.jpg';
 
+import './contact.scss';
+
 const Contact = () => (
   <div className="contact">
     <img
