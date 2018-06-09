@@ -2,6 +2,8 @@ import React from 'react';
 
 import aboutImg from '../../assets/about.jpg';
 
+import './about.scss';
+
 const About = () => (
   <div className="about">
     <img className="about__image" alt="far away city skyline" src={aboutImg} />
