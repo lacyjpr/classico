@@ -2,6 +2,8 @@ import React from 'react';
 
 import blogImg from '../../assets/blog.jpg';
 
+import './blog.scss';
+
 const Blog = () => (
   <div className="blog">
     <img className="blog__image" alt="surfer surfing" src={blogImg} />
