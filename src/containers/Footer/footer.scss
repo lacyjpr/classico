@@ -1,0 +1,61 @@
+@import '../../styles/variables';
+
+.footer {
+  grid-column: 1 / 13;
+  grid-row: 3 / 4;
+  background-color: black;
+  text-align: center;
+
+  &__content {
+    max-width: 300px;
+    margin: 0 auto;
+
+    &--h3 {
+      font-size: 1.65rem;
+      line-height: 1.4;
+      font-weight: 500;
+      color: $gamboge;
+      margin-top: 50px;
+      margin-bottom: 1rem;
+    }
+
+    &--gray {
+      box-sizing: border-box;
+      max-width: 90%;
+      margin: 0 auto;
+      background-color: $gray;
+      padding: 20px 20px 20px;
+      color: black;
+    }
+
+    &--box {
+      max-width: 90%;
+      margin: 0 auto;
+    }
+
+    &--link {
+      line-height: 2.4;
+      color: $yellow;
+    }
+
+    &--images {
+      margin: 0 auto;
+      max-width: 210px;
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+    }
+  }
+}
+
+@media (min-width: 576px) {
+  .footer {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (min-width: 992px) {
+  .footer {
+    grid-template-columns: repeat(4, 1fr);
+  }
+}

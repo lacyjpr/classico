@@ -7,6 +7,8 @@ import imgFour from '../../assets/100x100-4.jpg';
 import imgFive from '../../assets/100x100-5.jpg';
 import imgSix from '../../assets/100x100-6.jpg';
 
+import './footer.scss';
+
 const Footer = () => (
   <div className="footer">
     <div className="footer__content">
