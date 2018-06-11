@@ -7,7 +7,7 @@ import imageFour from '../../assets/310x180-4.jpg';
 
 const HomeInfoBox = () => (
   <div className="home__info-box">
-    <div className="home__info-box--item-1">
+    <div className="home__info-box--item">
       <img
         className="home__item-image"
         alt="sepia landscape with sun"
@@ -22,7 +22,7 @@ const HomeInfoBox = () => (
         Read More
       </a>
     </div>
-    <div className="home__info-box--item-2">
+    <div className="home__info-box--item">
       <img
         className="home__item-image"
         alt="sepia landscape with sun"
@@ -37,7 +37,7 @@ const HomeInfoBox = () => (
         Read More
       </a>
     </div>
-    <div className="home__info-box--item-3">
+    <div className="home__info-box--item">
       <img
         className="home__item-image"
         alt="sepia landscape with sun"
@@ -52,7 +52,7 @@ const HomeInfoBox = () => (
         Read More
       </a>
     </div>
-    <div className="home__info-box--item-4">
+    <div className="home__info-box--item">
       <img
         className="home__item-image"
         alt="sepia landscape with sun"
