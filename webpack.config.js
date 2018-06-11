@@ -39,21 +39,39 @@ module.exports = {
   },
   entry: ['react-hot-loader/patch', path.join(__dirname, '/src/index.jsx')],
   module: {
-    loaders: [
+    rules: [
       {
         test: /\.jsx?$/,
         exclude: /node_modules/,
-        loaders: ['babel-loader'],
+        use: { loader: 'babel-loader' },
       },
       {
         test: /\.scss$/,
-        loader: 'style-loader!css-loader!sass-loader',
+        use: [
+          {
+            loader: 'style-loader',
+          },
+          {
+            loader: 'css-loader',
+            options: {
+              sourceMap: true,
+            },
+          },
+          {
+            loader: 'sass-loader',
+            options: {
+              sourceMap: true,
+            },
+          },
+        ],
       },
       {
         test: /\.(jpe?g|png|gif|svg)$/i,
-        loader: 'url-loader',
-        options: {
-          limit: 10000,
+        use: {
+          loader: 'url-loader',
+          options: {
+            limit: 10000,
+          },
         },
       },
     ],
