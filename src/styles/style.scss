@@ -1,53 +1,6 @@
 @import 'variables';
 
+@import 'globals';
+
 // Google font
 @import url('https://fonts.googleapis.com/css?family=Open+Sans');
-
-body {
-  padding: 0;
-  margin: 0;
-  font-family: 'Open Sans', Helvetica, Arial, sans-serif;
-  color: $gray55;
-  overflow-x: hidden;
-}
-
-p {
-  line-height: 1.9;
-}
-
-.btn-like {
-  color: white;
-  background-color: $gamboge;
-  border-radius: 5px;
-  display: inline-block;
-  padding: 10px 30px;
-  text-transform: uppercase;
-  margin: 0 auto;
-  text-decoration: none;
-}
-
-.btn-like:hover {
-  background-color: $gamboge-dark;
-}
-
-.btn-like-gray {
-  color: white;
-  background-color: $dark-gray;
-  border-radius: 5px;
-  display: inline-block;
-  padding: 10px 30px;
-  text-transform: uppercase;
-  margin: 0 auto;
-  text-decoration: none;
-}
-
-.btn-like-gray:hover {
-  background-color: $darker-gray;
-}
-
-.container {
-  display: grid;
-  grid-template-columns: repeat(12, 1fr);
-  grid-template-rows: repeat(3, minmax(50px, auto));
-  margin: auto;
-}
