@@ -2,7 +2,7 @@ import React from 'react';
 
 const HomeCategories = () => (
   <div className="home__categories">
-    <h3 className="home__categories--h3">Categories</h3>
+    <h3>Categories</h3>
     <div>
       <a href="#">Odio imperdiet tempus</a>
     </div>

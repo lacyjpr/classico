@@ -6,7 +6,7 @@ import itemThree from '../../assets/240x120-3.jpg';
 
 const HomeRelated = () => (
   <div className="home__related">
-    <h3 className="home__related--h3">Related Posts</h3>
+    <h3>Related Posts</h3>
 
     <div className="home__related--item">
       <div className="home__related--image">
