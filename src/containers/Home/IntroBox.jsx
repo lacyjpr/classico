@@ -4,7 +4,7 @@ import introImg from '../../assets/660x380.jpg';
 
 const HomeIntroBox = () => (
   <div className="home__intro-box">
-    <h4 className="home__intro-box--h4">Ullamcorper lacinia ut dis dictumst</h4>
+    <h4>Ullamcorper lacinia ut dis dictumst</h4>
     <p>Montes dis laoreet faucibus nullam conubia praesent commodo</p>
     <img
       className="home__item-image"

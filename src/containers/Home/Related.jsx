@@ -15,7 +15,7 @@ const HomeRelated = () => (
 
       <div className="home__related--copy">
         <a href="#">
-          <h4 className="home__related--h4">Lorem ipsum dolor</h4>
+          <h4>Lorem ipsum dolor</h4>
         </a>
         <p>
           Accumsan facilisis aptent aliquam phasellus parturient vivamus
@@ -32,7 +32,7 @@ const HomeRelated = () => (
 
       <div className="home__related--copy">
         <a href="#">
-          <h4 className="home__related--h4">Lorem ipsum dolor</h4>
+          <h4>Lorem ipsum dolor</h4>
         </a>
         <p>
           Accumsan facilisis aptent aliquam phasellus parturient vivamus
@@ -49,7 +49,7 @@ const HomeRelated = () => (
 
       <div className="home__related--copy">
         <a href="#">
-          <h4 className="home__related--h4">Lorem ipsum dolor</h4>
+          <h4>Lorem ipsum dolor</h4>
         </a>
         <p>
           Accumsan facilisis aptent aliquam phasellus parturient vivamus
