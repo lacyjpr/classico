@@ -14,7 +14,7 @@ const HomeInfoBox = () => (
         src={imageOne}
       />
       <h4>Lorem ipsum dolor #1</h4>
-      <p className="home__info-box--p">
+      <p>
         Lorem ipsum dolor sit amet consectetur adipiscing elit, parturient fames
         odio litora porttitor.
       </p>
@@ -29,7 +29,7 @@ const HomeInfoBox = () => (
         src={imageTwo}
       />
       <h4>Lorem ipsum dolor #2</h4>
-      <p className="home__info-box--p">
+      <p>
         Lorem ipsum dolor sit amet consectetur adipiscing elit, parturient fames
         odio litora porttitor.
       </p>
@@ -44,7 +44,7 @@ const HomeInfoBox = () => (
         src={imageThree}
       />
       <h4>Lorem ipsum dolor #3</h4>
-      <p className="home__info-box--p">
+      <p>
         Lorem ipsum dolor sit amet consectetur adipiscing elit, parturient fames
         odio litora porttitor.
       </p>
@@ -59,7 +59,7 @@ const HomeInfoBox = () => (
         src={imageFour}
       />
       <h4>Lorem ipsum dolor #4</h4>
-      <p className="home__info-box--p">
+      <p>
         Lorem ipsum dolor sit amet consectetur adipiscing elit, parturient fames
         odio litora porttitor.
       </p>
